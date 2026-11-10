@@ -1,12 +1,12 @@
 # InfoQuest
 
-Jogo educativo de informática básica para crianças de 10 a 12 anos, conduzido pelo professor em sala de aula e feito para rodar no navegador de um notebook ligado à TV.
+Jogo educativo de informática básica para crianças de 10 a 12 anos, conduzido pelo professor em sala de aula e feito para rodar no navegador.
 
 > Status: em planejamento. Este repositório está sendo estruturado e ainda não há versão jogável publicada.
 
 ## Sobre o projeto
 
-O InfoQuest ensina as partes do computador e, principalmente, como elas se conectam. A criança não decora uma lista de peças: ela vê cada peça, arrasta até a porta correta, observa o cabo se esticar e acompanha a informação viajando do teclado ao processador, ou do processador até o monitor.
+O InfoQuest é um jogo para ensinar informática a crianças de 10 a 12 anos. Em vez de decorar uma lista de peças, a turma descobre como o computador funciona por dentro: cada peça tem uma função, e todas se conectam entre si.
 
 A aula é guiada pelo professor, que projeta o jogo na TV a partir do notebook. A turma é dividida em equipes formadas com os nomes dos próprios alunos, e a vez de jogar gira entre as equipes e, dentro de cada equipe, entre as crianças, para que todos participem.
 
