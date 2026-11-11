@@ -108,26 +108,25 @@ infoquest/
 
 Esta é a estrutura alvo. As pastas serão criadas conforme os marcos avançam.
 
+## Requisitos
+
+- Node.js 24
+- pnpm (versão fixada pelo repositório)
+
 ## Como rodar localmente
 
-Estes comandos serão válidos assim que o scaffolding inicial estiver no repositório.
-
-Requisitos: Node.js na versão indicada em `.nvmrc` e pnpm, habilitado pelo Corepack.
-
 ```bash
-corepack enable
 pnpm install
 pnpm dev
 ```
 
-Comandos previstos:
+## Como validar
 
 ```bash
-pnpm test        # testes unitários
-pnpm e2e         # testes de ponta a ponta com Playwright
-pnpm lint        # Biome e verificação de dependências
-pnpm build       # build de produção
+pnpm check
 ```
+
+A arquitetura da aplicação web está documentada na [seção Arquitetura](apps/web/README.md#arquitetura).
 
 ## Roadmap
 

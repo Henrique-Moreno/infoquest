@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { embaralhar } from './embaralhar';
+import { embaralhar } from '@/shared/lib/embaralhar';
 
 describe('embaralhar', () => {
   it('não altera a lista original', () => {
