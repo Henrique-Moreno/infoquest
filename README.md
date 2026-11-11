@@ -38,13 +38,13 @@ O fluxo tem quatro etapas:
 
 ### Desafios previstos
 
-| Ordem | Desafio | Ideia |
-|---|---|---|
-| 1 | Ligue as peças | Arrastar cada peça até a porta certa e ver a informação viajar pelo cabo |
-| 2 | Dentro do gabinete | Encaixar processador, memória RAM e armazenamento nos lugares certos |
-| 3 | Entrada, saída ou os dois? | Separar as peças pelo que elas fazem com a informação |
-| 4 | E se faltar uma peça? | Descobrir o que para de funcionar quando uma peça é removida |
-| 5 | Monte o computador | Montar tudo do zero e comparar o tempo da turma |
+| Ordem | Desafio                    | Ideia                                                                    |
+| ----- | -------------------------- | ------------------------------------------------------------------------ |
+| 1     | Ligue as peças             | Arrastar cada peça até a porta certa e ver a informação viajar pelo cabo |
+| 2     | Dentro do gabinete         | Encaixar processador, memória RAM e armazenamento nos lugares certos     |
+| 3     | Entrada, saída ou os dois? | Separar as peças pelo que elas fazem com a informação                    |
+| 4     | E se faltar uma peça?      | Descobrir o que para de funcionar quando uma peça é removida             |
+| 5     | Monte o computador         | Montar tudo do zero e comparar o tempo da turma                          |
 
 ### Pontuação
 
@@ -54,29 +54,29 @@ Quem acerta de primeira ganha 10 pontos, na segunda tentativa ganha 5, e depois 
 
 Todas as ferramentas são open source ou gratuitas.
 
-| Camada | Ferramenta | Papel no projeto |
-|---|---|---|
-| Linguagem | TypeScript em modo strict | Tipagem em todos os pacotes |
-| Monorepo | pnpm workspaces e Turborepo | Pacotes isolados, cache de build e testes |
-| Aplicação | Vite e React | Interface web, carregamento rápido |
-| Rotas | TanStack Router | Rotas tipadas para equipes, trilha, jogo e resultado |
-| Fluxo do jogo | XState | Máquina de estados do desafio e da aula |
-| Estado de interface | Zustand | Estado leve de tela, fora do núcleo do jogo |
-| Validação | Zod | Esquema do conteúdo dos desafios e dos dados salvos |
-| Animação | Motion | Cabos, pulsos de informação e transições em SVG |
-| Arrastar | dnd-kit e pointer events | Montagem de equipes; gestos das peças e dos cabos |
-| 3D (experimental) | three, React Three Fiber e drei | Carregado sob demanda, atrás de feature flag |
-| Estilo | Tailwind CSS e Radix UI | Tokens de design e componentes acessíveis |
-| Dados locais | Dexie sobre IndexedDB | Turmas e eventos guardados no notebook do professor |
-| Offline | vite-plugin-pwa e Workbox | Funcionamento sem internet |
-| Testes unitários | Vitest e Testing Library | Núcleo do jogo e componentes |
-| Testes de ponta a ponta | Playwright e axe-core | Fluxo completo, arrastar e acessibilidade |
-| Qualidade de código | Biome, Lefthook e dependency-cruiser | Lint, formatação, hooks de commit e regras de dependência |
-| Componentes | Storybook | Vitrine das peças e telas para desenvolvimento e design |
-| CI e deploy | GitHub Actions | Testes e publicação automática |
-| Hospedagem | GitHub Pages | Site estático gratuito |
-| Gestão | GitHub Issues e Projects | Backlog e marcos |
-| Design e 3D | Penpot, Blender e glTF Transform | Interface, modelos e otimização |
+| Camada                  | Ferramenta                           | Papel no projeto                                          |
+| ----------------------- | ------------------------------------ | --------------------------------------------------------- |
+| Linguagem               | TypeScript em modo strict            | Tipagem em todos os pacotes                               |
+| Monorepo                | pnpm workspaces e Turborepo          | Pacotes isolados, cache de build e testes                 |
+| Aplicação               | Vite e React                         | Interface web, carregamento rápido                        |
+| Rotas                   | TanStack Router                      | Rotas tipadas para equipes, trilha, jogo e resultado      |
+| Fluxo do jogo           | XState                               | Máquina de estados do desafio e da aula                   |
+| Estado de interface     | Zustand                              | Estado leve de tela, fora do núcleo do jogo               |
+| Validação               | Zod                                  | Esquema do conteúdo dos desafios e dos dados salvos       |
+| Animação                | Motion                               | Cabos, pulsos de informação e transições em SVG           |
+| Arrastar                | dnd-kit e pointer events             | Montagem de equipes; gestos das peças e dos cabos         |
+| 3D (experimental)       | three, React Three Fiber e drei      | Carregado sob demanda, atrás de feature flag              |
+| Estilo                  | Tailwind CSS e Radix UI              | Tokens de design e componentes acessíveis                 |
+| Dados locais            | Dexie sobre IndexedDB                | Turmas e eventos guardados no notebook do professor       |
+| Offline                 | vite-plugin-pwa e Workbox            | Funcionamento sem internet                                |
+| Testes unitários        | Vitest e Testing Library             | Núcleo do jogo e componentes                              |
+| Testes de ponta a ponta | Playwright e axe-core                | Fluxo completo, arrastar e acessibilidade                 |
+| Qualidade de código     | Biome, Lefthook e dependency-cruiser | Lint, formatação, hooks de commit e regras de dependência |
+| Componentes             | Storybook                            | Vitrine das peças e telas para desenvolvimento e design   |
+| CI e deploy             | GitHub Actions                       | Testes e publicação automática                            |
+| Hospedagem              | GitHub Pages                         | Site estático gratuito                                    |
+| Gestão                  | GitHub Issues e Projects             | Backlog e marcos                                          |
+| Design e 3D             | Penpot, Blender e glTF Transform     | Interface, modelos e otimização                           |
 
 ## Princípios de arquitetura
 
